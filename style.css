@@ -1,0 +1,330 @@
+ body{
+	 font-family: 'Open Sans', arial, tahoma, sans-serif;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-blend-mode: lighten;
+ }
+.navbar-header{
+  background: linear-gradient(to bottom right, #33ccff, #99ff99);
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    /* background-color: #eee; */
+	background-color: #262626;
+    border-color: #337ab7;
+}
+#search_result{
+    width: 48%;
+    position: absolute;
+    left: 26%;
+    z-index: 1;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid  #f2f2f2;
+}
+#search_result a{
+  margin: 5px;
+  text-decoration: none;
+  padding-right: 90%;
+}
+.result:hover{
+  background-color:#cccccc;
+}
+
+ #women-img:hover{
+	 opacity: 0.8;
+ }
+ .women-category {
+	 width: 100%;
+	 position: relative;
+ }
+ .men-category, .kid-category{
+	 width: 50%;
+ }
+ .women-category img{
+	 width: 100%;
+	 height: auto;
+ }
+ .women-button{
+	 position: absolute;
+	 top: 50%;
+	 left: 42.5%;
+	 padding: 10px;
+	 width: 15%;
+	 font-size: 20px;
+	 text-decoration: none;
+	 border-radius: 3px;
+	 border: 0.5px solid #333333;
+	 background-color: #333333;
+	 color: white;
+	 opacity: 0.8;
+ }
+ .women-button:hover{
+	 opacity: 1;
+ }
+ .main_feature{
+	 background: linear-gradient(to bottom right, #33ccff, #99ff99);
+	 width: 100%;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+ }
+ .feature{
+	 padding: 0;
+	 text-align: center;
+ }
+ h1{
+	 text-align: center;
+	 margin: 0;
+	 padding-bottom: 12px;
+ }
+ p{
+	 font-size: 12px;
+ }
+ h3{
+	 font-size: 25px;
+ }
+ .account{
+	 padding: 14px 0;
+	 text-align: center;
+ }
+ .dropdown a{
+	 text-decoration: none;
+	 color: #a6a6a6;
+ }
+ .dropdown a:hover{
+	 color: white;
+ }
+ .dropdown-menu>li>a{
+	 color: #a6a6a6;
+ }
+ .dropdown-menu>li>a:hover{
+	 color: white;
+	 background-color: #262626;
+ }
+ #index_signup_button{
+	 background-color: #b800e6;
+	 padding-top: 13px;
+	 color: #e6e6e6;
+	 padding-bottom: 13px;
+	 margin-top: 2px;
+	 margin-bototm: 2px;
+	 border-radius: 3px;
+ }
+  #index_signup_button:hover{
+	  background-color:#7a0099;	  
+	 color: white;
+  }
+.navbar-nav>li>.signup_button{
+	color: white;
+}
+#add_to_cart_btn{
+	border-radius: 5px;
+	background-color: #363636;
+	color: white;
+	border: 1px solid #363636;
+	padding: 5px;
+}
+#add_to_cart_btn:hover{
+	background-color: #000000;
+}
+
+/* Sign In Code */
+.signin_container{
+	width: 20%;
+	border: 0.5px solid #666666;
+	padding: 0;
+	background-color: white;
+	box-shadow: 5px 10px 18px #595959;
+}
+.signin-title-container{
+	width: 100%;
+	padding-bottom:10px;
+	padding-top:10px;
+	background-color: #666666;
+}
+#signin_title {
+	color: white;
+	padding: 0;
+	font-size: 40px;
+	font-family: 'Courier New',Courier,Freemono,'Nimbus Mono L',monospace;
+}
+.logo_container_signin{
+	width: 20%;
+	margin: auto;
+}
+.signin_form{
+	margin-top: 50px;
+	width: 100%;
+}
+.logo_container_signin img {
+	max-width: 100%;
+	margin-top: 5px;
+}
+.userdetails_field{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 20px 0;
+}
+#signin_button{
+	padding: 7px 15px 7px 15px;
+	background-color: #666666;
+	border: 1px solid #666666;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	color: white;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#signin_button:hover{
+	background-color: #262626;
+}
+#link-signin-with-signup {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.wrong_user{
+	color: #ff0000;
+	height:50px;
+	width: 70%;
+	border: 2px solid #ff8080;
+	border-radius: 2px;
+	text-align:left;
+	margin-top: 10px;
+	background-color: #ffe6e6;
+}
+/*Sign Up Code */
+.signup_container
+{
+	width: 30%;
+	border: 0.5px solid #666666;
+	padding: 0 0 40px 0;
+	background-color: white;
+	box-shadow: 5px 10px 18px #595959;
+	margin-bottom: 50px;
+}
+.signup-instruction{
+	width: 93%;
+	padding: 5px 0 0 5px;
+	border: 2px solid #1aa3ff;
+	border-radius:2px;
+	background-color: #ccebff;
+	color: #1aa3ff;
+	text-align: left;
+}
+.signup-title-container{
+	width: 100%;
+	padding-bottom:10px;
+	padding-top:10px;
+	background-color: #666666;
+}
+#signup_title {
+	color: white;
+	font-size: 40px;
+	font-family: 'Courier New',Courier,Freemono,'Nimbus Mono L',monospace;
+	padding: 0;
+}
+.logo_container_signup{
+	max-width: 30%;
+	margin: auto;
+}
+.logo_container_signup img{
+	width: 100%;
+	margin-top: 5px;
+}
+.signup{
+	width: 50%;
+	margin: 0px;
+	text-align: center;
+}
+.left{
+	border-right: 0.5px solid #404040;
+}
+.sub_title_signup{
+	font-size: 20px;
+	color: #0099ff;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin: 10px 0 0 0;
+}
+.container_form{
+	display: flex;
+	margin-top: 20px;
+}
+input{
+	border-radius: 5px;
+	border: 0.5px solid #999999;
+	width: 65%;
+}
+#signup_cancel_btn
+{
+	text-decoration: none;
+	padding: 7px 15px;
+	background-color:#ff6666;
+	border-radius: 5px;
+	border: 0.5px solid #ff6666;
+	color: white;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#signup_cancel_btn:hover{
+	background-color: #ff1a1a;
+}
+
+/*Product Page Code here*/
+.signin_button{
+	padding: 5px 10px;
+}
+/*product view code here*/
+
+input[name="quantity"]
+{
+	padding: 5px 13px;
+	border-radius:5px;
+	border: 0.5px solid grey;
+    box-sizing: border-box;
+	width: 15%;	
+}
+input[name="add_to_cart"]
+{
+	width: 20%;
+}
+.product_details{
+	border: 0.5px solid #f7f7f7;
+	background-color: white;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	margin-bottom: 300px;
+}
+.product_picture{
+    width: 60%;
+	border-radius: 5px;
+}
+.product_picture img{
+	width: 100%;
+	min-height: 400px;
+}
+.product_attribute{
+	width: 70%;
+	margin-left: 20px;
+}
+.product_attributes{
+	font-family: 'Tajawal', sans-serif;
+	font-size: 25px;
+	margin: 0;
+}
+.color, .size, .brand, .stock{
+	font-size: 15px;
+}
+.description{
+	font-size: 15px;
+	margin-top: 10px;
+	font-family: 'Tajawal', sans-serif;
+}
+.description p{
+	margin-bottom: 0;
+}
